@@ -1,6 +1,4 @@
 {
-  "name": "blog_heroku",
-  "repository": "https://github.com/usutani/blog_heroku",
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate db:seed"
   },
